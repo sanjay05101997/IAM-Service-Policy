@@ -1,0 +1,21 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1639205681909",
+      "Action": [
+        "account:DeleteAlternateContact"
+      ],
+      "Effect": "Allow",
+      "Resource": "*"
+    },
+    {
+      "Sid": "Stmt1639205886063",
+      "Action": [
+        "account:GetAlternateContact"
+      ],
+      "Effect": "Allow",
+      "Resource": "*"
+    }
+  ]
+}
